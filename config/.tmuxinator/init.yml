@@ -1,0 +1,10 @@
+# ~/.tmuxinator/init.yml
+
+name: init
+root: ~/
+
+windows:
+  - example:
+      layout: main-vertical
+      panes:
+        - echo 'Hello World!'
